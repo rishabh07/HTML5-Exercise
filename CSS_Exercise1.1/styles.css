@@ -1,0 +1,17 @@
+
+div{
+	text-align:center;
+}
+ul{
+	color:Blue;
+}
+li{
+	list-style-type:none;
+	color:green;
+}
+.actor{
+	background-color: yellow;
+}
+#stephen-king{
+	text-decoration: underline;
+}
