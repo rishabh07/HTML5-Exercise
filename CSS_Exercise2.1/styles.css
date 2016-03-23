@@ -1,0 +1,122 @@
+
+#header{
+  position:relative;
+  padding-right: 14;
+}
+#header h1{
+  margin: 0px;
+  display: inline-block;
+}
+#logo {
+    padding: 60px 0 8px 0;
+    overflow: hidden;
+    background-image: url("logo.png");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    height: 0px !important;
+    height /**/:70px;
+}
+/*navigation*/
+nav{
+  display: inline-block;
+  position:relative;
+  margin-left: 25%;
+  font-weight: bold;
+  font-family: calibri;
+  font-size: 20px;
+}
+nav div{
+  margin: 0;
+}
+nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+  float: left;
+  margin:0 20px 0 20px;
+}
+nav ul li a {
+    display: inline-block;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+	padding-bottom:30px;
+}
+nav form{
+  display: inline-block;
+}
+form input{
+  display: inline-block;
+  
+  margin: 1px;
+  padding: 0px 0 0 0;
+  overflow: hidden;
+}
+header img{
+	
+	padding-bottom:30px;
+}
+
+/*for Circular Profile Pic*/
+#profilePic{
+	border-radius: 50%;
+	padding: 5px;
+	width: 90px;
+    height: 90px;
+}
+.intro{
+    overflow: auto;
+}
+.disp-pic {
+    float: left
+}
+.disp-pic img {
+    display: block
+}
+.disp-name{
+  font-family: calibri;
+  font-size: 22px;
+  color: DimGray;
+  margin: 0px;
+}
+.disp-title{
+	font-family: calibri;
+	color: Gray;
+	margin: 0px;
+}
+.disp-url{
+  margin: 35px;
+}
+
+/*profile*/
+.profile{
+    position: relative;
+    width: 635px;
+    margin: 0 0 0 -200px;
+	top: 20%;
+    left: 40%;
+    border:0.3pt solid grey;
+}
+article{
+	margin: 10px;
+}
+section{
+	border:0.3pt solid grey;
+	padding: 5px;
+	margin-bottom:5px;
+}
+section h4{	
+	border-bottom:0.3pt solid grey;
+	padding: 5px;
+	margin: 0 !important;
+}
+.arrow-right{
+	width: 0; 
+	height: 0; 
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid black;
+}
