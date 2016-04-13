@@ -1,0 +1,125 @@
+/*body{
+    background-image: url("HTMLNCSSExercise.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}*/
+
+/**
+*HEADER
+**/
+body{
+    font-family: calibri;
+}
+header, h1, nav, ul, li, a, header div, img{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+header h1{
+    color: transparent;
+    width: 220px;
+    height: 50px;
+    background-image: url("logo.png");
+    background-size: 100%;
+    background-position: 0 60px;
+    bottom: 0px;
+}
+header h1 span{
+display: none;
+}
+header nav{
+    position:relative;
+    margin-left: 390px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav ul li {
+    list-style-type: none;
+    margin:0 20px 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+/**
+*Circular Profile Pic
+**/
+#profilePic{
+    border-radius: 50%;
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+#intro{
+    display: block;
+}
+.disp-pic {
+    float: left
+}
+.disp-pic img {
+    display: block
+}
+.disp-name{
+    font-family: calibri;
+    font-size: 22px;
+    color: DimGray;
+    margin: 0;
+}
+.disp-title{
+    font-family: calibri;
+    color: Gray;
+    margin: 0;
+}
+.disp-url a{
+    font-family: calibri;
+    font-size: 18px;
+    margin: 15px 0px;
+    color: black;
+}
+
+/**
+*profile
+**/
+.profile{
+    width: 590px;
+    height: 350px;
+    margin: 0 0 0 354px;
+    top: 20%;
+    left: 40%;
+    border:2pt solid #E8E8E8;
+}
+article{
+    margin: 10px;
+    border-radius: 5px;
+}
+section{
+    border:2pt solid #E8E8E8;
+    border-radius: 5px;
+    margin-bottom:5px;
+}
+section h4{
+    background: linear-gradient(#E8E8E8, #D0D0D0, #E8E8E8);
+    padding: 5px;
+    margin: 0;
+}
+section div{
+    padding: 5px;
+}
+.content{
+    display: none;
+}
+Section.active h4{
+    background: transparent;
+    border-bottom:1pt solid #D0D0D0;
+}
+section.active .content{
+    display: block;
+}
